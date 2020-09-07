@@ -1,0 +1,110 @@
+//index css start//
+.banner{
+    height: 496px;
+}
+.recommend{
+    margin-top: -60px;
+    z-index: 99;
+
+    
+}
+
+.recommend.txt{
+    letter-spacing: 10px;
+    writing-mode: vertical-rl;
+}
+
+
+@media(max-width:768px){
+    .recommend{
+        margin-top: 0px;
+    }
+}
+
+
+.recommend  a.position-relative{
+    height: 256px;
+    text-decoration: none;
+}
+.recommend span{
+    color:white
+}
+
+.recommend  a:hover{
+    span{
+        color:#3F5D45;
+    }
+    .recommend-bgc{
+    background-color: #FFE180;
+    }
+}
+.recommend a.active span{
+    color:#3F5D45;
+}
+.recommend a.active .recommend .recommend-img{
+   filter: none;
+}
+
+
+
+
+.recommend .recommend-img{
+    top:5px;
+    bottom:5px;
+    left:5px;
+    right:5px;
+    z-index:-2;
+  //  filter: blur(5px);
+     background-color: transparent;
+    transition: filter  1s;
+    filter:blur(8px);
+    overflow: hidden;
+}
+
+
+
+.recommend .recommend-bgc{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+    opacity: 0.7;
+    transition: background-color 1s;
+    background-color: #3F5D45;
+}
+
+
+.intro {
+    
+}
+
+.intro-img{
+    min-height: 250px;
+    
+}
+
+//md
+.intro-img.position-md-absolute{
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+//md
+.intro-txt{
+    max-height: 320px;
+}
+
+
+
+.vertical-content{
+    max-height:420px;
+    line-height: 2.5;
+}
+
+
+.footer-list{
+    list-style: none;
+}
+//index.html end//

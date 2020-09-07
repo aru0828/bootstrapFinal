@@ -1,0 +1,39 @@
+.progress-step {
+    position: relative;
+    z-index: 2;
+}
+
+.circle{
+    
+    width: 20px;
+    height: 20px;
+    border:1px solid white;
+}
+
+.circle.active{
+    position: relative;
+}
+
+.circle.active:after{
+    content:"";
+    position: absolute;
+    left:0;
+    right:0;
+    top:0px;
+    bottom: 0px;
+    border-radius: 50%;
+    border:2px solid  $primary;
+    background: #EAF0ED;
+    
+}
+
+
+.progress-step::after{
+    content:"";
+    position: absolute;
+    left:0;
+    right:0;
+    top:46%;
+    border:1px solid  $primary-light;
+    z-index: -1;
+}

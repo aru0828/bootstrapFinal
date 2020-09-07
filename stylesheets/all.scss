@@ -1,0 +1,132 @@
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+@import "helpers/variables";
+@import "helpers/index";
+
+@import "helpers/card";
+@import "helpers/cart";
+@import "helpers/summary";
+@import "helpers/progress-step";
+@import "helpers/register";
+@import "helpers/success";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+.opacity-9{
+    opacity:0.9;
+}
+
+.bg-cover{
+    background-position:center center;
+    background-size:cover;
+}
+
+.btn{
+    border-radius: 0px !important;
+}
+.form-control-lg{
+    border-radius: 0px !important;
+}
+
+.vertical-text{
+    writing-mode: vertical-rl;
+    letter-spacing: 10px;
+}
+
+
+.font-size-18{
+    font-size: 18px;
+}
+
+.font-size-20{
+    font-size: 20px;
+}
+
+.font-size-24{
+    font-size:24px;
+}
+@media(max-width:768px){
+   
+    .card{}
+}
+
+
+@media(min-width:768px){
+    .d-md-none{
+        display: none !important;
+    }
+    .vertical-md-text {
+        writing-mode: vertical-rl;
+    }
+    .break-vertical-block{
+        margin-top:-24px;
+        margin-bottom:-24px;
+    }
+    .position-md-relative{
+        position: relative;
+    }
+    .position-md-absolute{
+        position: absolute;
+    }
+    .position-md-static{
+        position: static !important;
+    }
+    .w-md-75{
+        width:75% !important;
+    }
+    .border-md-bottom{
+        border-bottom: 1px solid #dee2e6 !important;
+        border-bottom-width: 1px !important;
+        border-bottom-style: solid !important;
+        border-bottom-color: rgb(222, 226, 230) !important;
+    }
+   
+    
+}
+
+
+
+//product.html start//
+
+.product-banner .position-absolute{
+    right:50px;
+    top:40px;
+}
+
+.product-menu .active{
+    background-color: $primary-lighter;
+}
+.product-menu .list-group-item:hover{
+    background-color: $primary-lighter;
+}
+
+
+//product.html//
+
+
+
+//checkout.html start//
+.select-date{
+    -webkit-appearance: none; 
+}
+
+.fa-check .position-absolute{
+   
+}
+
+
+.invoice li a{
+    background-color:$primary;
+    color:white;
+   
+    
+}
+    
+.nav-pills .nav-link.active{
+    background-color: white;
+    color:$primary;
+}
+
+

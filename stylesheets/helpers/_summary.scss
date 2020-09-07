@@ -1,0 +1,32 @@
+.summary h2{
+    color:white;
+}
+.summary .table{
+    color:white;
+}
+
+.summary tr td{
+    padding-bottom: 0px;
+}
+
+.summary tr td:first-child{
+    padding-left: 0px;
+}
+
+.summary tr td:last-child{
+    padding-right: 0px;
+}
+@media(max-width:768px){
+    .cart-row .price{
+    border-top: solid 1px $primary-lighter;
+    border-bottom: solid 1px $primary-lighter;
+    }
+    .summary h2{
+        background: $primary-lighter;
+        color:$primary;
+    }
+    .summary .table{
+        background-color: white;
+        color:$primary;
+    }
+}

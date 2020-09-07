@@ -1,0 +1,50 @@
+.card{
+    border-radius:0 !important;
+}
+.card-img{
+    height: 315px;
+}
+
+.card-txt{
+    border:1px solid #EAF0ED;
+    .col-6{
+        padding:15px 0;
+        border-right:1px solid rgb(186, 219, 203);
+    }
+}
+
+.card-tag{
+    writing-mode: vertical-rl;
+    letter-spacing: 5px;
+    left:5px;
+}
+
+.card-icon{
+    font-size: 24px;
+}
+.card-icon .ui-checked-display{
+    cursor: pointer;
+}
+
+.card-icon .ui-checkbox{
+    display: none;
+}
+.card-icon .ui-show{
+    display: none;
+}
+
+
+
+.card-icon.position-absolute{
+    right:15px;
+    top:15px
+}
+
+.card-icon .ui-checkbox:checked{
+    .ui-show{
+        display:block;
+    }
+    .ui-hide{
+        display:none;
+    }
+}

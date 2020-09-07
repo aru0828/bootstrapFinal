@@ -1,0 +1,303 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六角甜點工坊 - 產品</title>
+    <meta property="og:title" content="註冊  | 六角甜點工坊" />
+    <meta property="og:description" content="使用 Bootstrap 結合 Sass 結束這回合吧" />
+    <meta property="og:site_name" content="六角學院" />
+    <meta property="og:locale" content="zh_TW" />
+    <link rel="icon" href="images/favicon_48.ico">
+    <link rel="stylesheet" href="stylesheets/fontawesomeall.css">
+    <link rel="stylesheet" href="stylesheets/all.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-all-dark.svg" class="d-none d-md-inline-block" height="40" alt="" width="220">
+                <img src="images/logotype-sm-dark.svg " class="d-inline-block d-md-none" alt="" width="114" height="18">
+            </a>
+
+            <a class="nav-link text-primary pr-0 text-center order-md-1" href="cart.html" tabindex="-1"
+                aria-disabled="true">
+                <i class="fas fa-shopping-cart font-size-20"></i>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active ">
+                        <a class="nav-link text-primary" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="register.html" tabindex="-1" aria-disabled="true">登入</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+    </nav>
+
+
+
+    <section class="container cart  my-md-4 ">
+        <div class="row">
+            <div class="col-md-8  px-0 px-md-3">
+                <div class="client-infor  p-4 bg-primary ">
+                    <div class="form-row mb-3">
+                        <div class="col-6 ">
+                            <h1 class="text-white">付款</h1>
+                        </div>
+                        <div class="col-6 align-self-center">
+                            <div class="progress-step w-100 d-flex justify-content-between">
+                                <div class="circle  rounded-circle "><i
+                                        class="fas fa-check bg-primary-lighter rounded-circle text-primary  font-size-18"></i>
+                                </div>
+                                <div class="circle rounded-circle  active"></div>
+                                <div class="circle rounded-circle  bg-primary"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row  mb-3 align-items-center ">
+                        <div class="col-12">
+                            <div class="form-group  ">
+                                <label class="h4 text-white" for="card-number">信用卡卡號</label>
+                                <div class="input-group mb-3">
+                                    <input type="number "
+                                        class="form-control bg-primary-lighter form-control-lg rounded-0"
+                                        id="card-number" placeholder="9012-3456-7891-4567">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2"><i
+                                                class="far fa-credit-card text-primary"></i></span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-6">
+                            <div class="form-group  ">
+                                <label class="h4 text-white" for="formGroupExampleInput">持卡人姓名</label>
+                                <input type="text " class="form-control bg-primary-lighter form-control-lg rounded-0"
+                                    id="formGroupExampleInput" placeholder="王">
+                            </div>
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <div class="form-group ">
+
+                                <input type="text" class="form-control bg-primary-lighter form-control-lg rounded-0"
+                                    id="formGroupExampleInput" placeholder="小明">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row date">
+                        <div class="col-6 ">
+                            <div class="form-group  ">
+                                <label class="h4 text-white" for="date-y">有效期限</label>
+                                <select name=""
+                                    class="select-date form-control bg-primary-lighter form-control-lg rounded-0"
+                                    id="date-y">
+                                    <option value="">年</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <div class="form-group ">
+                                <select name=""
+                                    class="select-date form-control bg-primary-lighter form-control-lg rounded-0"
+                                    id="date-m">
+                                    <option value="">年</option>
+                                </select>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-6">
+                            <div class="form-group ">
+                                <label class="h4 text-white" for="deadline">有效期限</label>
+                                <input type="number" class="form-control bg-primary-lighter form-control-lg rounded-0"
+                                    id="deadline" placeholder="123">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="checkout-2.html"
+                    class="btn btn-warning   btn-block text-primary next-btn rounded-0  font-size-20 py-3  ">下一步</a>
+            </div>
+
+
+
+            <div class="col-md-4 d-none d-md-block">
+                <div class="summary pb-4 text-primary   border mb-4">
+                    <h2 class="text-center  h4  mb-0 py-4 border-bottom bg-primary-lighter text-primary-light">訂單摘要
+                    </h2>
+                    <div class="px-3">
+                        <table class="table text-primary-light table-borderless mb-0 ">
+
+                            <tbody>
+                                <tr class="">
+                                    <td scope="row">小記</td>
+                                    <td class="text-right">NT$ 2,700</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row">運費</td>
+                                    <td class="text-right">NT$ 300</td>
+                                </tr>
+                                <tr>
+                                    <td scope="row" class="font-size-20">總計</td>
+                                    <td class="font-weight-bold  text-right font-size-20">NT$ 3000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="summary shopping-list pb-3 text-primary   border ">
+                    <h2 class="text-center  h4  mb-0 py-4 border-bottom bg-primary-lighter text-primary-light">購物清單
+                    </h2>
+                    <div class="px-3">
+                        <li class="media d-flex align-items-center py-2 mt-3 ">
+                            <div class="cart-image cart-image-sm bg-cover mr-3"
+                                style="background-image: url('https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5…jEyMDd9&s=ce72676…&auto=format&fit=crop&w=685&q=80');">
+                            </div>
+                            <div class="text-primary d-flex  justify-content-center  w-100">
+
+                                <div class="cart-infor mr-auto text-primary-light">
+                                    <span class="h5">抹茶馬卡龍 (2)</span>
+                                    <br>
+                                    <span>NT$ 450</span>
+                                </div>
+                        </li>
+
+                        <li class="media d-flex align-items-center py-2 ">
+                            <div class="cart-image cart-image-sm bg-cover mr-3"
+                                style="background-image: url('https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5…jEyMDd9&s=ce72676…&auto=format&fit=crop&w=685&q=80');">
+                            </div>
+                            <div class="text-primary d-flex  justify-content-center  w-100">
+
+                                <div class="cart-infor mr-auto text-primary-light">
+                                    <span class="h5">抹茶馬卡龍 (2)</span>
+                                    <br>
+                                    <span>NT$ 450</span>
+                                </div>
+                        </li>
+
+                        <li class="media d-flex align-items-center py-2 ">
+                            <div class="cart-image cart-image-sm bg-cover mr-3"
+                                style="background-image: url('https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5…jEyMDd9&s=ce72676…&auto=format&fit=crop&w=685&q=80');">
+                            </div>
+                            <div class="text-primary d-flex  justify-content-center  w-100">
+
+                                <div class="cart-infor mr-auto text-primary-light">
+                                    <span class="h5">抹茶馬卡龍 (2)</span>
+                                    <br>
+                                    <span>NT$ 450</span>
+                                </div>
+                        </li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-primary py-md-5 py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div
+                    class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start my-3 my-md-0">
+                    <img src="images/logo-light.svg" alt="" width="40" height="40">
+                    <span class="font-size-24 text-white ml-3">訂閱你我的甜蜜郵件</span>
+                </div>
+
+                <div class="col-md-5 d-flex align-items-center px-0">
+                    <form class="px-3 mb-0 w-100 ">
+                        <div
+                            class="form-group  d-flex justify-content-between align-items-center bg-primary-lighter mb-0">
+                            <label for="exampleInputEmail1" class="text-center mb-0 px-4">
+                                <i class="fas fa-envelope text-primary font-size-20"></i>
+                                </i></label>
+                            <input type="email"
+                                class="form-control form-control-lg bg-primary-lighter border-0 py-4 font-size-20"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <a href="#" for="exampleInputEmail1" class="text-center mb-0 px-4 btn btn-warning py-3">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-primary-lighter text-primary">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-md-5 d-flex flex-column justify-content-between">
+                    <div>
+                        <img src="images/logotype-sm-dark.svg" height="27">
+                    </div>
+
+                    <ul class="footer-list mt-5 text-left pl-0">
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 text-right d-none d-md-block">
+                    <img src="images/sm-今天是個吃甜點的好日子.svg" alt="" width="60">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 mb-2 mb-md-0">
+                    <img src="images/ic-line@.svg" alt="" width="32" height="32">
+                    <img src="images/ic-facebook.svg" alt="" width="32" height="32">
+                </div>
+                <div class="col-md-5  text-left text-md-center">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <!--bs4 js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--bs4 js-->
+
+    <script src="js/fontawesomeall.js"></script>
+</body>
+
+</html>

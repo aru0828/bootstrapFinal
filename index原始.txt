@@ -1,0 +1,359 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六角甜點工坊 - 首頁</title>
+    <meta property="og:title" content="註冊  | 六角甜點工坊" />
+    <meta property="og:description" content="使用 Bootstrap 結合 Sass 結束這回合吧" />
+    <meta property="og:site_name" content="六角學院" />
+    <meta property="og:locale" content="zh_TW" />
+    <link rel="icon" href="images/favicon_48.ico">
+    <link rel="stylesheet" href="stylesheets/fontawesomeall.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="stylesheets/all.css">
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">
+                <h1 class="text-hide">六角甜點店</h1>
+                <img src="images/logo-all-dark.svg" class="d-none d-md-inline-block" height="40" alt="" width="220">
+                <img src="images/logotype-sm-dark.svg " class="d-inline-block d-md-none" alt="" width="114" height="18">
+            </a>
+
+            <a class="nav-link text-primary pr-0 text-center order-md-1" href="cart.html" tabindex="-1"
+                aria-disabled="true">
+                <i class="fas fa-shopping-cart font-size-20"></i>
+            </a>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item active ">
+                        <a class="nav-link text-primary" href="index.html">首頁 <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="register.html" tabindex="-1" aria-disabled="true">登入</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+    </nav>
+    <div class="container px-0 px-md-2">
+
+        <section>
+            <div class="banner bg-cover w-100"
+                style="background-image:url('https://images.unsplash.com/photo-1473256599800-b48c7c88cd7e?ixlib=rb-0.3.5…jEyMDd9&s=ae0d68a…&auto=format&fit=crop&w=925&q=80')">
+            </div>
+        </section>
+
+        <section>
+            <div class="recommend position-relative ">
+                <div class="row justify-content-center  no-gutter mx-0">
+                    <div class="col-12 col-md-10 px-0">
+                        <div class="row  mx-0">
+                            <div class="col-4 px-0">
+                                <a href=""
+                                    class="active position-relative d-flex justify-content-center align-items-center w-100 border">
+
+                                    <span
+                                        class="font-size-24 vertical-text  font-weight-bold recommend-txt d-md-inline-block">本日精選</span>
+
+                                    <div class="recommend-img bg-cover position-absolute"
+                                        style=" background-image: url('https://bit.ly/2R5tqwD');"></div>
+                                    <div class="recommend-bgc bg-warning position-absolute"></div>
+                                </a>
+                            </div>
+                            <div class="col-4 px-0">
+                                <a href=""
+                                    class="position-relative d-flex justify-content-center align-items-center w-100  border">
+                                    <span class="font-size-24 vertical-text font-weight-bold recommend-txt">人氣推薦</span>
+                                    <div class="recommend-img bg-cover position-absolute"
+                                        style=" background-image: url('https://bit.ly/2Dwoxd7');"></div>
+                                    <div class="recommend-bgc  position-absolute"></div>
+                                </a>
+                            </div>
+                            <div class="col-4 px-0">
+                                <a href=""
+                                    class="position-relative d-flex justify-content-center align-items-center w-100  border">
+                                    <span class="font-size-24 vertical-text font-weight-bold recommend-txt">新品上市</span>
+
+                                    <div class="recommend-bgc  position-absolute"></div>
+                                    <div class="recommend-img bg-cover position-absolute"
+                                        style=" background-image: url('https://bit.ly/2OUteif');"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <section class="intro my-md-9 container">
+        <div class="row justify-content-center no-gutter d-md-none">
+            <div class="col-6">
+                <img src="images/sm-為什麼選擇了做甜點.svg" class="my-5 img-fluid" alt="">
+            </div>
+        </div>
+        <div class="bg-primary-lighter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 break-vertical-block  p-0 position-md-relative">
+                        <div class="h-100  intro-img bg-cover  position-md-absolute"
+                            style="background-image:url('https://images.unsplash.com/photo-1519730722595-a5ff788dea4d?ixlib=rb-0.3.5…jEyMDd9&s=2712a33…&auto=format&fit=crop&w=634&q=80');">
+                        </div>
+                    </div>
+                    <div class="col-md-6 vertical-content d-flex justify-content-end ">
+                        <div
+                            class="vertical-md-text intro-txt  vertical-content text-primary-light  mr-auto py-md-7 py-4 px-md-4 ">
+                            <p class="mb-0">青山依舊在，幾度夕陽紅。慣看秋月春風。</p>
+                            <p class="mb-0">一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                            <p class="mb-0">是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                        </div>
+                        <div class="break-vertical-block d-none d-md-block">
+                            <img src="images/lg-為什麼選擇了做甜點.svg" alt="" width="88">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="intro my-md-9 container">
+
+        <div class="row justify-content-center no-gutter d-md-none ">
+            <div class="col-6">
+                <img src="images/sm-為什麼一定要吃甜點.svg" class="my-5 img-fluid" alt="">
+            </div>
+        </div>
+
+        <div class="bg-primary-lighter">
+            <div class="container">
+                <div class="row flex-row-reverse">
+                    <div class="col-md-6 break-vertical-block p-0 position-md-relative">
+                        <div class=" intro-img bg-cover h-100 position-md-absolute"
+                            style="background-image:url('https://images.unsplash.com/photo-1497052254059-f3e0bf1a5133?ixlib=rb-0.3.5…jEyMDd9&s=ce72676…&auto=format&fit=crop&w=685&q=80');">
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 vertical-content d-flex justify-content-end ">
+                        <div
+                            class="vertical-md-text intro-txt  vertical-content text-primary-light  mr-auto py-md-7 py-4 px-md-4">
+                            <p class="mb-0">青山依舊在，幾度夕陽紅。慣看秋月春風。</p>
+                            <p class="mb-0">一壺濁酒喜相逢，浪花淘盡英雄。是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                            <p class="mb-0">是非成敗轉頭空，滾滾長江東逝水，白髮漁樵江渚上，古今多少事，都付笑談中。</p>
+                        </div>
+                        <div class="break-vertical-block d-none d-md-block">
+                            <img src="images/lg-為什麼選擇了做甜點.svg" alt="" width="88">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text-center my-md-9 my-5">
+        <img class="img-fluid d-none d-md-inline-block" src="images/lg-想吃甜點是不需要理由的.svg" alt="" width="89">
+        <img src="images/sm-想吃甜點是不需要理由的.svg" class="img-fluid d-md-none" alt="" width="256">
+    </section>
+
+    <section class="container my-md-5 my-3">
+        <div class="form-row">
+            <div class="col-md-4">
+                <div class="card mb-4 ">
+                    <!--style="width: 22rem";-->
+                    <div class="card-img bg-cover position-relative"
+                        style="background-image: url('https://images.unsplash.com/photo-1534073737927-85f1ebff1f5d?ixlib=rb-0.3.5…jEyMDd9&s=1204e55…&auto=format&fit=crop&w=634&q=80')">
+
+                        <div class="card-tag vertical-text px-2 py-3 bg-primary text-white position-absolute">本日精選</div>
+
+                        <div class="card-icon position-absolute text-primary">
+                            <label class="ui-checked-display" for="icon-check">
+                                <input type="checkbox" class="ui-checkbox" id="icon-check">
+                                <i class="material-icons ui-show">
+                                    favorite
+                                </i>
+                                <i class="material-icons ui-hidden">
+                                    favorite_border
+                                </i>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-txt text-center row mx-0 font-size-20 text-primary ">
+                            <div class="col-6 card-name font-weight-bolder">焦糖馬卡龍</div>
+                            <div class="col-6 card-price font-weight-bolder">NT$ 450</div>
+                        </div>
+                        <a href="" class="btn bg-primary-lighter btn-block font-size-24 px-6 py-3">加入購物車</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <!--style="width: 22rem";-->
+                    <div class="card-img bg-cover position-relative"
+                        style="background-image: url('https://images.unsplash.com/photo-1525059337994-6f2a1311b4d4?ixlib=rb-0.3.5…jEyMDd9&s=7ce5bbf…&auto=format&fit=crop&w=654&q=80')">
+
+                        <div class="card-tag vertical-text px-2 py-3 bg-primary text-white position-absolute">本日精選</div>
+
+                        <div class="card-icon position-absolute text-primary">
+                            <label class="ui-checked-display">
+                                <input type="checkbox" class="ui-checkbox">
+                                <i class="material-icons ui-show">
+                                    favorite
+                                </i>
+                                <i class="material-icons ui-hidden">
+                                    favorite_border
+                                </i>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-txt text-center row mx-0 font-size-20 text-primary">
+                            <div class="col-6 card-name font-weight-bolder">牛奶尬圈圈</div>
+                            <div class="col-6 card-price font-weight-bolder">NT$ 450</div>
+                        </div>
+                        <a href="" class="btn bg-primary-lighter btn-block font-size-24 px-6 py-3">加入購物車</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <!--style="width: 22rem";-->
+                    <div class="card-img bg-cover position-relative"
+                        style="background-image: url('https://images.unsplash.com/photo-1490474504059-bf2db5ab2348?ixlib=rb-0.3.5…EyMDd9&s=0cad6d3…&auto=format&fit=crop&w=1350&q=80')">
+
+                        <div class="card-tag vertical-text px-2 py-3 bg-primary text-white position-absolute">本日精選</div>
+
+                        <div class="card-icon position-absolute text-primary">
+                            <label class="ui-checked-display">
+                                <input type="checkbox" class="ui-checkbox">
+                                <i class="material-icons ui-show">
+                                    favorite
+                                </i>
+                                <i class="material-icons ui-hidden">
+                                    favorite_border
+                                </i>
+                            </label>
+                        </div>
+
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="card-txt text-center row mx-0 font-size-20 text-primary">
+                            <div class="col-6 card-name font-weight-bolder">保證不烙賽</div>
+                            <div class="col-6 card-price font-weight-bolder">NT$ 450</div>
+                        </div>
+                        <a href="" class="btn bg-primary-lighter btn-block font-size-24 px-6 py-3">加入購物車</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-primary py-md-5 py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div
+                    class="col-md-5 d-flex align-items-center justify-content-center justify-content-md-start my-3 my-md-0">
+                    <img src="images/logo-light.svg" alt="" width="40" height="40">
+                    <span class="font-size-24 text-white ml-3">訂閱你我的甜蜜郵件</span>
+                </div>
+
+                <div class="col-md-5 d-flex align-items-center px-0">
+                    <form class="px-3 mb-0 w-100 ">
+                        <div
+                            class="form-group  d-flex justify-content-between align-items-center bg-primary-lighter mb-0">
+                            <label for="exampleInputEmail1" class="text-center mb-0 px-4">
+                                <i class="fas fa-envelope text-primary font-size-20"></i>
+                                </i></label>
+                            <input type="email"
+                                class="form-control form-control-lg bg-primary-lighter border-0 py-4 font-size-20"
+                                id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <a href="#" for="exampleInputEmail1" class="text-center mb-0 px-4 btn btn-warning py-3">
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-primary-lighter text-primary">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-md-5 d-flex flex-column justify-content-between">
+                    <div>
+                        <img src="images/logotype-sm-dark.svg" height="27">
+                    </div>
+
+                    <ul class="footer-list mt-5 text-left pl-0">
+                        <li>07-1234-5678</li>
+                        <li>sweetaste@email.com</li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 text-right d-none d-md-block">
+                    <img src="images/sm-今天是個吃甜點的好日子.svg" alt="" width="60">
+                </div>
+            </div>
+
+            <div class="row justify-content-center mt-4">
+                <div class="col-md-5 mb-2 mb-md-0">
+                    <img src="images/ic-line@.svg" alt="" width="32" height="32">
+                    <img src="images/ic-facebook.svg" alt="" width="32" height="32">
+                </div>
+                <div class="col-md-5  text-left text-md-center">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+    <!--bs4 js-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <!--bs4 js-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="js/fontawesomeall.js"></script>
+    <script src="js/all.js"></script>
+</body>
+
+</html>

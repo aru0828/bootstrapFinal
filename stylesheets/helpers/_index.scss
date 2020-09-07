@@ -1,0 +1,134 @@
+//index css start//
+.banner{
+    height: 496px;
+}
+.recommend{
+    margin-top: -60px;
+    z-index: 99;
+
+    
+}
+
+
+
+.recommend.txt{
+    letter-spacing: 10px;
+    writing-mode: vertical-rl;
+}
+
+
+@media(max-width:768px){
+    .recommend{
+        margin-top: 0px;
+    }
+}
+
+
+.recommend  a.position-relative{
+    height: 256px;
+    text-decoration: none;
+}
+.recommend span{
+    color:white;
+}
+
+.recommend  a:hover{
+    span{
+        color:$primary;
+    }
+    .recommend-bgc{
+    background-color: #FFE180;
+    }
+
+    .recommend-img-inner{
+        filter: blur(0px);
+    }
+
+}
+.recommend a.active span{
+    color:$primary;
+}
+.recommend a.active  .recommend-img-inner{
+    filter: blur(0px);
+}
+
+.custom-card{
+    background-color: transparent;
+    position: relative;
+}
+
+.recommend .recommend-img{
+    position: absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:-2;
+  //  filter: blur(5px);
+    background-color: transparent;
+   
+    
+    overflow: hidden;
+    .recommend-img-inner{
+        content:"";
+        position: absolute;
+        top:-20px;
+        bottom:-20px;
+        left:-20px;
+        right:-20px;
+        background-image: url('https://bit.ly/2R5tqwD');
+        background-position:center center;
+          background-size:cover;
+     //   background-attachment: fixed;
+        filter: blur(5px);
+        transition: filter  1s;
+    }
+}
+
+
+
+.recommend .recommend-bgc{
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    z-index:-1;
+    opacity: 0.8;
+    transition: background-color 1s;
+    background-color: $primary;
+}
+
+
+.intro {
+    
+}
+
+.intro-img{
+    min-height: 250px;
+    
+}
+
+//md
+.intro-img.position-md-absolute{
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+}
+//md
+.intro-txt{
+    max-height: 320px;
+}
+
+
+
+.vertical-content{
+    max-height:420px;
+    line-height: 2.5;
+}
+
+
+.footer-list{
+    list-style: none;
+}
+//index.html end//
